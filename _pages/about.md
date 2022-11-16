@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hengzhe Zhang"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -29,5 +29,5 @@ Hengzhe Zhang received the B.Sc. degree in software engineering from Xiangtan Un
 Collaborators
 ======
 Professor [Mengjie Zhang](https://scholar.google.co.nz/citations?user=hLvGrrkAAAAJ&hl=en), Victoria Univeristy of Wellington\\
-Professor [Wolfgang Banzhaf](https://scholar.google.com/citations?user=u-FjxEUAAAAJ&hl=en), Michigan State Universty\\
+Professor [Wolfgang Banzhaf](https://scholar.google.com/citations?user=u-FjxEUAAAAJ&hl=en), Michigan State Universty
 
