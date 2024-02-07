@@ -1,5 +1,5 @@
 ---
-title: Good Papers for Genetic Programming
+title: 'Good Papers for Genetic Programming'
 date: 2023-07-30
 permalink: /posts/2023/07/Genetic-Programming-Papers/
 tags:
