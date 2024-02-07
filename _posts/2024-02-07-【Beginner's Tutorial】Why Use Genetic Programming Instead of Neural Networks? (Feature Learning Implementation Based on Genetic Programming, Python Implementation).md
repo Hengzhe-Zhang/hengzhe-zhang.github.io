@@ -1,5 +1,5 @@
 ---
-title: '(Beginner's Tutorial) Why Use Genetic Programming Instead of Neural Networks? (Feature Learning Implementation Based on Genetic Programming, Python Implementation)'
+title: 'Why Use Genetic Programming Instead of Neural Networks?'
 date: 2024-02-07
 permalink: /posts/2024/02/Genetic-Programming-NN/
 tags:
