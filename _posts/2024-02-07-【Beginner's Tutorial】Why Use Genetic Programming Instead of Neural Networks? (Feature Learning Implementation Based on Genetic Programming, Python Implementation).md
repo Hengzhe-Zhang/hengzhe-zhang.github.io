@@ -6,7 +6,7 @@ tags:
   - papers
 ---
 
-## Feature Construction with Genetic Programming for Decision Trees using Cross-Validation Loss
+### Feature Construction with Genetic Programming for Decision Trees using Cross-Validation Loss
 
 In the field of machine learning, feature engineering plays a crucial role. The goal of feature engineering is to construct features that are more useful for machine learning algorithms, thereby improving the performance of models. There are many methods for feature engineering, including but not limited to:
 
@@ -28,16 +28,16 @@ In genetic programming, each solution is a program where the input is the origin
 ### Why Not Use Neural Networks?
 
 #### Decision Trees -> Non-differentiable -> Unable to Use Neural Networks for Feature Construction
-![DT](assets/DT.png)
+![DT](/assets/DT.png)
 
 #### Cross-Validation Error -> Non-differentiable -> Unable to Optimize with Gradient Descent
-![CV](assets/CV.png)
+![CV](/assets/CV.png)
 
 #### Traditional Neural Networks -> Difficult to Interpret/High Memory Consumption
-![NN](assets/NN.png)
+![NN](/assets/NN.png)
 
 #### Gradient Optimization -> Difficult for Large-Scale Parallelization
-![Parallel](assets/Parallel.png)
+![Parallel](/assets/Parallel.png)
 
 ### Evaluation Function
 As mentioned earlier, the goal of genetic programming is to optimize cross-validation error, rather than optimizing training error like traditional feature engineering methods.
@@ -245,7 +245,7 @@ def evaluationOnTest(trees, name):
 evaluationOnTest(best_ind, "Cross-Validation")
 ```
 
-![Cross-Validation](assets/output_12_0.png)
+![Cross-Validation](/assets/output_12_0.png)
 
 ### GP Directly Optimizing Training Error
 
@@ -296,7 +296,7 @@ evaluationOnTest(best_ind, "Direct Optimization")
     Best individual is: ['subtract(ARG0, add(ARG1, ARG2))', 'add(ARG8, ARG2)', 'add(subtract(add(ARG6, ARG6), multiply(add(ARG9, ARG0), ARG3)), multiply(ARG6, add(ARG6, ARG0)))']
     With fitness: (0.6991039640945576,)
 
-![Direct Optimization](assets/output_14_1.png)
+![Direct Optimization](/assets/output_14_1.png)
 
 
 ### Traditional Feature Engineering Methods
@@ -324,19 +324,19 @@ plot_predictions(train_y, model.predict(train_X), test_y, model.predict(test_X),
 ```
 
 
-![NN](assets/output_16_0.png)
+![NN](/assets/output_16_0.png)
     
 
 
 
 
-![KernelSVM](assets/output_16_1.png)
+![KernelSVM](/assets/output_16_1.png)
     
 
 
 
 
-![DT](assets/output_16_2.png)
+![DT](/assets/output_16_2.png)
     
 
 
