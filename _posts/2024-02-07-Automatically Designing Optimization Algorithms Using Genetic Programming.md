@@ -81,6 +81,7 @@ def differential_evolution(
 print("Optimization result obtained by traditional DE algorithm:",
       np.mean([differential_evolution(lambda a, b, c, F: a + F * (b - c), bounds) for _ in range(10)]))
 ```
+The optimization result obtained by the traditional DE algorithm is 4.506377260849465e-05.
 
 The optimization result obtained by the traditional DE algorithm is quite good. However, can we automatically design a better algorithm?
 
@@ -153,6 +154,8 @@ array = np.array
 crossover_operator = lambda ARG0, ARG1, ARG2, ARG3: add(ARG0, subtract(multiply(ARG0, ARG3), ARG3))
 print("Optimization result obtained by the new algorithm:", np.mean([differential_evolution(crossover_operator, bounds) for _ in range(10)]))
 ```
+
+The optimization result obtained by the new optimization algorithm is 1.0213225557390857e-19.
 
 The optimization result obtained by the new algorithm is better than that of the traditional DE algorithm. This proves that GP has discovered a better new algorithm.
 
