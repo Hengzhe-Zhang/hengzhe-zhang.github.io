@@ -19,7 +19,7 @@ As we know, when designing algorithms, we not only aim for good experimental res
 - $F$ is a random perturbation vector drawn from some distribution, and the range of $F$ covers the entire search space $\mathcal{S}$.
 
 **Proof:**
-Define $A_\epsilon$ as the $\epsilon$-neighborhood of $X^*$, i.e., $A_\epsilon = \{X \in \mathcal{S} : \|X - X^*\| < \epsilon\}$. Let $P_\epsilon$ be the probability of $X_{\text{new}} = X + (F \cdot X - F)$ falling into $A_\epsilon$ in one operation. Since $F$ can cover the entire search space, even for sufficiently small $\epsilon$, we still have $P_\epsilon > 0$.
+Define $A_\epsilon$ as the $\epsilon$-neighborhood of $X^\*$, i.e., $A_\epsilon = \{X \in \mathcal{S} : \|X - X^\*\| < \epsilon\}$. Let $P_\epsilon$ be the probability of $X_{\text{new}} = X + (F \cdot X - F)$ falling into $A_\epsilon$ in one operation. Since $F$ can cover the entire search space, even for sufficiently small $\epsilon$, we still have $P_\epsilon > 0$.
 
 In $N$ iterations, the probability of $X_{\text{new}}$ falling into $A_\epsilon$ at least once is $1 - (1 - P_\epsilon)^N$. Using limits, we can express the behavior of this probability as $N$ approaches infinity:
 
